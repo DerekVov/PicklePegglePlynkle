@@ -3959,12 +3959,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541155119}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: 4.68, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.012478812, w: 0.9999222}
+  m_LocalPosition: {x: -0.08321933, y: -0.12796317, z: 0}
   m_LocalScale: {x: 0.63, y: 0.63, z: 0.63}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2032554404}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1597892444
 PrefabInstance:
@@ -4374,6 +4374,8 @@ GameObject:
   - component: {fileID: 2032554404}
   - component: {fileID: 2032554403}
   - component: {fileID: 2032554405}
+  - component: {fileID: 2032554407}
+  - component: {fileID: 2032554406}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -4450,10 +4452,11 @@ Transform:
   m_GameObject: {fileID: 2032554402}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.012478812, w: 0.9999222}
-  m_LocalPosition: {x: 0, y: 4.49, z: 0}
+  m_LocalPosition: {x: 0, y: 4.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1541155121}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.43}
 --- !u!114 &2032554405
@@ -4468,6 +4471,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d21ba124a457456ab9cda1ab5188437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouseFacer
+--- !u!114 &2032554406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032554402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0c389c32dc742d69874838b0cf428d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Launcher
+  ProjectilePrefab: {fileID: 749488653538132377, guid: 9def4f6d93c9b426bbe23918f0921581, type: 3}
+--- !u!114 &2032554407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032554402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d074cd2a415441f8e130d4b25e4d7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MouseLauncher
+  Launcher: {fileID: 2032554406}
 --- !u!1001 &2114750908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4607,4 +4636,3 @@ SceneRoots:
   - {fileID: 1273003974}
   - {fileID: 352051665}
   - {fileID: 2032554404}
-  - {fileID: 1541155121}
