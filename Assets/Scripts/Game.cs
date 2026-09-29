@@ -20,8 +20,8 @@ public class Game : MonoBehaviour
         
     }
 
-    public static bool IsGameStarted()
+    public static bool IsGameNotStarted()
     {
-        return isGameStarted;
+        return !isGameStarted;
     }
 }
