@@ -24,4 +24,8 @@ public class Game : MonoBehaviour
     {
         return !isGameStarted;
     }
+    public static bool IsGameStarted()
+    {
+        return isGameStarted;
+    }
 }
