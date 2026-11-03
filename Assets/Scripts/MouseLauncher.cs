@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 public class MouseLauncher : MonoBehaviour
 {
     // Update is called once per frame
+    public Sounds Sounds;
     public Launcher Launcher;
     void Update()
     {
@@ -32,6 +33,7 @@ public class MouseLauncher : MonoBehaviour
     {
         // Figure direction to aim
         Vector2 aimDirection = GetAimDirection();
+        Sounds.PlayCannonSound();
         
         // launch in that direction
         Launcher.Launch(aimDirection);

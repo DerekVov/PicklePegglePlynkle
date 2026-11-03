@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: feb93d11060ee4d8698a0159919cdfde
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - audioSource: {instanceID: 0}
+  - CannonClip: {fileID: 8300000, guid: 9fc6f8885efd743a38bd07a939172bb6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

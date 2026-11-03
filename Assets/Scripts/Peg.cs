@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class Peg : MonoBehaviour
 {
     public List<Sprite> Sprites;
-   
+    public Sounds Sounds;
     private int currentSpriteNumber = 0;
     private SpriteRenderer spriteRenderer;
 
@@ -26,11 +26,13 @@ public class Peg : MonoBehaviour
             // disappear
             if (NoMoreSprites())
             {
+                Sounds.PlayPegDestroySound();
                 Destroy(gameObject);
             }
             //else
             else
             {
+                Sounds.PlayPegHitSound();
                 ShowNextSprite();
             }
             // show next sprite
@@ -38,7 +40,7 @@ public class Peg : MonoBehaviour
     private void ShowNextSprite()
     {
 
-
+        
         currentSpriteNumber++;
         spriteRenderer.sprite = Sprites[currentSpriteNumber];
     }
