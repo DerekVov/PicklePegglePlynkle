@@ -39,8 +39,6 @@ public class Peg : MonoBehaviour
     }
     private void ShowNextSprite()
     {
-
-        
         currentSpriteNumber++;
         spriteRenderer.sprite = Sprites[currentSpriteNumber];
     }
