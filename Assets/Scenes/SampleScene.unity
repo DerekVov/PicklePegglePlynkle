@@ -650,6 +650,10 @@ PrefabInstance:
       propertyPath: Points
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: -619300668272011646, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 84763845}
     - target: {fileID: 841342080248553123, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.61
@@ -1329,6 +1333,10 @@ PrefabInstance:
       propertyPath: Points
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: -619300668272011646, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 84763845}
     - target: {fileID: 841342080248553123, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.49
@@ -3968,6 +3976,10 @@ PrefabInstance:
       propertyPath: Points
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: -619300668272011646, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 84763845}
     - target: {fileID: 841342080248553123, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.45
@@ -5681,6 +5693,10 @@ PrefabInstance:
       propertyPath: Ui
       value: 
       objectReference: {fileID: 1271473847}
+    - target: {fileID: -619300668272011646, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 84763845}
     - target: {fileID: 841342080248553123, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.49
@@ -6244,6 +6260,10 @@ PrefabInstance:
       propertyPath: Points
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: -619300668272011646, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 84763845}
     - target: {fileID: 841342080248553123, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.53
@@ -6525,6 +6545,10 @@ PrefabInstance:
       propertyPath: Ui
       value: 
       objectReference: {fileID: 1271473847}
+    - target: {fileID: -619300668272011646, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 84763845}
     - target: {fileID: 841342080248553123, guid: d19c6dce1413c45a9b62803bd55f0447, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.34

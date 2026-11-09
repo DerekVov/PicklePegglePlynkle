@@ -14,6 +14,10 @@ public class MouseLauncher : MonoBehaviour
             return;
         }
 
+        if (Ball.IsBallInPlay())
+        {
+            return;
+        }
         if (Mouse.current == null)
         {
             return;
